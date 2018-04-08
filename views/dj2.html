@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <title>Hello Mr. DJ</title>
+    <meta name="description" content="be a dj with osc and sockets">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <!--link rel="stylesheet" href="/style.css"-->
+    <!--link rel="stylesheet" href="extra.css"-->
+    <link rel="stylesheet" href="seq.css">
+  </head>
+  <body>
+    
+    <h2 id="containerDescr">Container 1</h2>
+    
+    <div id="seq-body">
+      <div class="container">
+        <div class="square row-1 column-1"></div><div class="square row-1 column-2"></div><div class="square row-1 column-3"></div><div class="square row-1 column-4"></div><div class="square row-1 column-5"></div><div class="square row-1 column-6"></div><div class="square row-1 column-7"></div><div class="square row-1 column-8"></div><div class="square row-1 column-9"></div><div class="square row-1 column-10"></div><div class="square row-1 column-11"></div><div class="square row-1 column-12"></div><div class="square row-1 column-13"></div><div class="square row-1 column-14"></div><div class="square row-1 column-15"></div><div class="square row-1 column-16"></div><br>
+        <div class="square row-2 column-1"></div><div class="square row-2 column-2"></div><div class="square row-2 column-3"></div><div class="square row-2 column-4"></div><div class="square row-2 column-5"></div><div class="square row-2 column-6"></div><div class="square row-2 column-7"></div><div class="square row-2 column-8"></div><div class="square row-2 column-9"></div><div class="square row-2 column-10"></div><div class="square row-2 column-11"></div><div class="square row-2 column-12"></div><div class="square row-2 column-13"></div><div class="square row-2 column-14"></div><div class="square row-2 column-15"></div><div class="square row-2 column-16"></div><br>
+        <div class="square row-3 column-1"></div><div class="square row-3 column-2"></div><div class="square row-3 column-3"></div><div class="square row-3 column-4"></div><div class="square row-3 column-5"></div><div class="square row-3 column-6"></div><div class="square row-3 column-7"></div><div class="square row-3 column-8"></div><div class="square row-3 column-9"></div><div class="square row-3 column-10"></div><div class="square row-3 column-11"></div><div class="square row-3 column-12"></div><div class="square row-3 column-13"></div><div class="square row-3 column-14"></div><div class="square row-3 column-15"></div><div class="square row-3 column-16"></div><br>
+        <div class="square row-4 column-1"></div><div class="square row-4 column-2"></div><div class="square row-4 column-3"></div><div class="square row-4 column-4"></div><div class="square row-4 column-5"></div><div class="square row-4 column-6"></div><div class="square row-4 column-7"></div><div class="square row-4 column-8"></div><div class="square row-4 column-9"></div><div class="square row-4 column-10"></div><div class="square row-4 column-11"></div><div class="square row-4 column-12"></div><div class="square row-4 column-13"></div><div class="square row-4 column-14"></div><div class="square row-4 column-15"></div><div class="square row-4 column-16"></div><br>
+        <div class="square row-5 column-1"></div><div class="square row-5 column-2"></div><div class="square row-5 column-3"></div><div class="square row-5 column-4"></div><div class="square row-5 column-5"></div><div class="square row-5 column-6"></div><div class="square row-5 column-7"></div><div class="square row-5 column-8"></div><div class="square row-5 column-9"></div><div class="square row-5 column-10"></div><div class="square row-5 column-11"></div><div class="square row-5 column-12"></div><div class="square row-5 column-13"></div><div class="square row-5 column-14"></div><div class="square row-5 column-15"></div><div class="square row-5 column-16"></div><br>
+        <!--div class="square row-6 column-1"></div><div class="square row-6 column-2"></div><div class="square row-6 column-3"></div><div class="square row-6 column-4"></div><div class="square row-6 column-5"></div><div class="square row-6 column-6"></div><div class="square row-6 column-7"></div><div class="square row-6 column-8"></div><div class="square row-6 column-9"></div><div class="square row-6 column-10"></div><div class="square row-6 column-11"></div><div class="square row-6 column-12"></div><div class="square row-6 column-13"></div><div class="square row-6 column-14"></div><div class="square row-6 column-15"></div><div class="square row-6 column-16"></div><br>
+        <div class="square row-7 column-1"></div><div class="square row-7 column-2"></div><div class="square row-7 column-3"></div><div class="square row-7 column-4"></div><div class="square row-7 column-5"></div><div class="square row-7 column-6"></div><div class="square row-7 column-7"></div><div class="square row-7 column-8"></div><div class="square row-7 column-9"></div><div class="square row-7 column-10"></div><div class="square row-7 column-11"></div><div class="square row-7 column-12"></div><div class="square row-7 column-13"></div><div class="square row-7 column-14"></div><div class="square row-7 column-15"></div><div class="square row-7 column-16"></div><br>
+        <div class="square row-8 column-1"></div><div class="square row-8 column-2"></div><div class="square row-8 column-3"></div><div class="square row-8 column-4"></div><div class="square row-8 column-5"></div><div class="square row-8 column-6"></div><div class="square row-8 column-7"></div><div class="square row-8 column-8"></div><div class="square row-8 column-9"></div><div class="square row-8 column-10"></div><div class="square row-8 column-11"></div><div class="square row-8 column-12"></div><div class="square row-8 column-13"></div><div class="square row-8 column-14"></div><div class="square row-8 column-15"></div><div class="square row-8 column-16"></div><br>
+        <div class="square row-9 column-1"></div><div class="square row-9 column-2"></div><div class="square row-9 column-3"></div><div class="square row-9 column-4"></div><div class="square row-9 column-5"></div><div class="square row-9 column-6"></div><div class="square row-9 column-7"></div><div class="square row-9 column-8"></div><div class="square row-9 column-9"></div><div class="square row-9 column-10"></div><div class="square row-9 column-11"></div><div class="square row-9 column-12"></div><div class="square row-9 column-13"></div><div class="square row-9 column-14"></div><div class="square row-9 column-15"></div><div class="square row-9 column-16"></div><br>
+        <div class="square row-10 column-1"></div><div class="square row-10 column-2"></div><div class="square row-10 column-3"></div><div class="square row-10 column-4"></div><div class="square row-10 column-5"></div><div class="square row-10 column-6"></div><div class="square row-10 column-7"></div><div class="square row-10 column-8"></div><div class="square row-10 column-9"></div><div class="square row-10 column-10"></div><div class="square row-10 column-11"></div><div class="square row-10 column-12"></div><div class="square row-10 column-13"></div><div class="square row-10 column-14"></div><div class="square row-10 column-15"></div><div class="square row-10 column-16"></div><br>
+        <div class="square row-11 column-1"></div><div class="square row-11 column-2"></div><div class="square row-11 column-3"></div><div class="square row-11 column-4"></div><div class="square row-11 column-5"></div><div class="square row-11 column-6"></div><div class="square row-11 column-7"></div><div class="square row-11 column-8"></div><div class="square row-11 column-9"></div><div class="square row-11 column-10"></div><div class="square row-11 column-11"></div><div class="square row-11 column-12"></div><div class="square row-11 column-13"></div><div class="square row-11 column-14"></div><div class="square row-11 column-15"></div><div class="square row-11 column-16"></div><br>
+        <div class="square row-12 column-1"></div><div class="square row-12 column-2"></div><div class="square row-12 column-3"></div><div class="square row-12 column-4"></div><div class="square row-12 column-5"></div><div class="square row-12 column-6"></div><div class="square row-12 column-7"></div><div class="square row-12 column-8"></div><div class="square row-12 column-9"></div><div class="square row-12 column-10"></div><div class="square row-12 column-11"></div><div class="square row-12 column-12"></div><div class="square row-12 column-13"></div><div class="square row-12 column-14"></div><div class="square row-12 column-15"></div><div class="square row-12 column-16"></div><br>
+        <div class="square row-13 column-1"></div><div class="square row-13 column-2"></div><div class="square row-13 column-3"></div><div class="square row-13 column-4"></div><div class="square row-13 column-5"></div><div class="square row-13 column-6"></div><div class="square row-13 column-7"></div><div class="square row-13 column-8"></div><div class="square row-13 column-9"></div><div class="square row-13 column-10"></div><div class="square row-13 column-11"></div><div class="square row-13 column-12"></div><div class="square row-13 column-13"></div><div class="square row-13 column-14"></div><div class="square row-13 column-15"></div><div class="square row-13 column-16"></div><br>
+        <div class="square row-14 column-1"></div><div class="square row-14 column-2"></div><div class="square row-14 column-3"></div><div class="square row-14 column-4"></div><div class="square row-14 column-5"></div><div class="square row-14 column-6"></div><div class="square row-14 column-7"></div><div class="square row-14 column-8"></div><div class="square row-14 column-9"></div><div class="square row-14 column-10"></div><div class="square row-14 column-11"></div><div class="square row-14 column-12"></div><div class="square row-14 column-13"></div><div class="square row-14 column-14"></div><div class="square row-14 column-15"></div><div class="square row-14 column-16"></div><br>
+        <div class="square row-15 column-1"></div><div class="square row-15 column-2"></div><div class="square row-15 column-3"></div><div class="square row-15 column-4"></div><div class="square row-15 column-5"></div><div class="square row-15 column-6"></div><div class="square row-15 column-7"></div><div class="square row-15 column-8"></div><div class="square row-15 column-9"></div><div class="square row-15 column-10"></div><div class="square row-15 column-11"></div><div class="square row-15 column-12"></div><div class="square row-15 column-13"></div><div class="square row-15 column-14"></div><div class="square row-15 column-15"></div><div class="square row-15 column-16"></div>
+        <br-->
+      </div>
+    </div>
+    
+    <div style="display: flex;">
+      <button id="activate">toggle</button>
+      <div id="playControls">
+          <button onclick="sequencer()">START</button>
+          <button onclick="stop_sequencer()">STOP</button>    
+          <input type="text" placeholder="Tempo" id="set_tempo"/>
+          <input type="text" placeholder="Key (65 = C4, 50 = A2, etc.)" id="set_key"/>
+      </div>  
+      <button id="touchBut">live</button>
+    </div>
+    
+    
+    <audio id="patatGrayL" data-label="gray shaker 1"   src="https://cdn.glitch.com/eeb58a6b-dbe9-4510-a689-ef7ed30f587c%2Fpatatap%20gray%20L%20shaker.mp3?1523210415617"></audio>
+    <audio id="patatGrayU" data-label="gray kickshaker" src="https://cdn.glitch.com/eeb58a6b-dbe9-4510-a689-ef7ed30f587c%2Fpatatap%20gray%20U%20kickshaker.mp3?1523210415998"></audio>
+    <audio id="patatOranN" data-label="orange shaker 1" src="https://cdn.glitch.com/eeb58a6b-dbe9-4510-a689-ef7ed30f587c%2Fpatatap%20orange%20N%20shaker.mp3?1523210415423"></audio>
+    <audio id="patatOranT" data-label="orange bass"     src="https://cdn.glitch.com/eeb58a6b-dbe9-4510-a689-ef7ed30f587c%2Fpatatap%20orange%20T%20bass1.mp3?1523210415833"></audio>
+    <audio id="patatOranV" data-label="orange shaker 2" src="https://cdn.glitch.com/eeb58a6b-dbe9-4510-a689-ef7ed30f587c%2Fpatatap%20orange%20V%20shaker.mp3?1523210416357"></audio>
+    
+    <!--script src="https://code.jquery.com/jquery-2.2.1.min.js" integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00=" crossorigin="anonymous"></script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.0/socket.io.js"></script>
+    
+    
+    <!-- from  https://github.com/kylestetz/lissajous/tree/master/src   -->
+    <script src="/liss/vendor/tuna.js"></script>
+    <script src="/liss/vendor/bufferLoader.js"></script>
+    <script src="/liss/vendor/recorder.js"></script>
+    <script src="/liss/vendor/recorderWorker.js"></script>
+    
+    <script src="/liss/context.js"></script>
+    <script src="/liss/generators.js"></script>
+    <script src="/liss/group.js"></script>
+    <script src="/liss/track.api.js"></script>
+    <script src="/liss/track.core.js"></script>
+    <!--  effects .js files should be added here  -->
+    <script src="/liss/track.envelope.js"></script>
+    <script src="/liss/track.events.js"></script>
+    <script src="/liss/track.filter.js"></script>
+    <script src="/liss/track.oscillator.js"></script>
+    <script src="/liss/track.record.js"></script>
+    <script src="/liss/track.sampler.js"></script>
+    <script src="/liss/track.scheduler.js"></script>
+    <script src="/liss/track.sequencer.js"></script>
+    
+    
+    
+    <!-- script src="/liss/.js"></script -->
+    
+    
+    <script src="/comm2.js"></script>
+    <script src="/seq.js"></script>
+
+  </body>
+</html>

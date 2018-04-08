@@ -1,0 +1,33 @@
+https://codepen.io/search/pens/?limit=all&page=6&q=sequencer
+
+
+now trying - https://codepen.io/njmcode/pen/PwaXwB
+
+basic sequencer  https://codepen.io/mavrK/pen/NRLXJq?editors=1010
+
+
+
+Rhythm Composer  https://codepen.io/mecarter/pen/ryBgd
+
+
+many libs here http://tangiblejs.com/libraries/audio
+https://github.com/kylestetz/lissajous/blob/master/Tutorial.md
+https://github.com/Theodeus/tuna
+
+
+
+copy array buffer?
+  https://stackoverflow.com/questions/10100798/whats-the-most-straightforward-way-to-copy-an-arraybuffer-object
+  
+  
+
+fetch etc  
+  https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data
+  
+clone() - As the method implies this method creates a clone of the response.
+redirect() - This method creates a new response but with a different URL.
+arrayBuffer() - In here we return a promise that resolves with an ArrayBuffer.
+formData() - Also returns a promise but one that resolves with FormData object.
+blob() - This is one resolves with a Blob.
+text() - In this case it resolves with a string.
+json() - Lastly we have the method to that resolves the promise with JSON.
